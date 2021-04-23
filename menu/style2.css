@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page-header {
+    background-color: #402907;
+    height: 80px;
+}
+
+.rog {
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    z-index: 2;
+}
+
+.rog img {
+    width: 120px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    right: 72px;
+}
+
+.nav-item {
+    margin-right: 56px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+}
+
+.nav-item:hover {
+    opacity: 0.5;
+}
+
+.nav-insta-icon {
+    margin-right: 16px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.nav-insta-icon:hover {
+    opacity: 0.5;
+}
+
+.nav-facebook-icon {
+    color: #fff;
+    font-size: 28px;
+}
+
+.nav-facebook-icon:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:990px) {
+    .rog {
+        position: absolute;
+        top: 24px;
+        left: 48px;
+        z-index: 2;
+    }
+
+    .rog img {
+        width: 104px;
+    }
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+.menu-img img {
+    width: 100%;
+    z-index: 1;
+}
+
+
+#main {
+    background-color: #d4bc92;
+}
+
+#drink {
+    background: 50% 26%;
+    height: 560px;
+    background-image: url(images2/image.10.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    padding-bottom: 3%;
+}
+
+.drink-list {
+    margin: 4% auto 0;
+    padding-top: 16%;
+    width: 60%;
+    column-count: 2;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.drink-item {
+    text-align: center;
+    color: #fff;
+    list-style: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.drink-img {
+    display: none;
+}
+
+@media screen and (max-width:1070px) {
+    #drink {
+        height: 440px;
+    }
+
+    .drink-list {
+        padding-top: 14%;
+    }
+
+    .drink-item {
+        font-size: 16px;
+        line-height: 54px;
+    }
+}
+
+
+@media screen and (max-width:870px) {
+    #drink {
+        height: 360px;
+    }
+
+    .drink-list {
+        padding-top: 16%;
+    }
+
+    .drink-item {
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    #drink {
+        height: 480px;
+        background-image: none;
+        padding: 16px 10%;
+
+    }
+
+    .drink-img {
+        display: block;
+        text-align: center;
+    }
+
+    .drink-img img {
+        width: 100%;
+    }
+
+    .drink-list {
+        padding-top: 1%;
+        width: 100%;
+    }
+
+    .drink-item {
+        font-size: 13px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+#food {
+    background: 50% 26%;
+    height: 560px;
+    background-image: url(images2/image.11.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    padding-bottom: 3%;
+}
+
+.food-list {
+    text-align: center;
+    margin: 4% auto 0;
+    padding-top: 16%;
+    width: 60%;
+    column-count: 2;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.food-item {
+    color: #fff;
+    list-style: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.food-img {
+    display: none;
+}
+
+@media screen and (max-width:1070px) {
+    #food {
+        height: 440px;
+    }
+
+    .food-list {
+        padding-top: 14%;
+    }
+
+    .food-item {
+        font-size: 16px;
+        line-height: 54px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    #food {
+        height: 360px;
+    }
+
+    .food-list {
+        padding-top: 16%;
+    }
+
+    .food-item {
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    #food {
+        height: 480px;
+        background-image: none;
+        padding: 16px 10%;
+    }
+
+    .food-img {
+        display: block;
+        text-align: center;
+    }
+
+    .food-img img {
+        width: 100%;
+    }
+
+    .food-list {
+        padding-top: 1%;
+        width: 100%;
+    }
+
+    .food-item {
+        font-size: 13px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+#footer {
+    background-color: #402907;
+    height: 120px;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-item {
+    margin-top: 16px;
+    margin-right: 48px;
+    text-align: center;
+}
+
+.footer-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.footer-item:hover {
+    opacity: 0.5;
+}
+
+.footer-insta-icon {
+    margin-right: 16px;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.footer-insta-icon:hover {
+    opacity: 0.5;
+}
+
+.footer-facebook-icon {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+.footer-facebook-icon:hover {
+    opacity: 0.5;
+}
+
+.copylight {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 40px;
+    font-family: 'EB Garamond', serif;
+}
